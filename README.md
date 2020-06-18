@@ -1,6 +1,6 @@
 # spring & undertow Bug PoC
 
-This server accept the request only if the path starts with `/api/public/`.
+This server should accept a request only if its path starts with `/api/public/`.
 
 [DemoInterceptor](src/main/java/com/example/demo/DemoInterceptor.java) checks request URI.
 
